@@ -1,11 +1,23 @@
-@media screen and (min-width: 150px) {
-  .row, .career-title, .featured-item {
+@media screen and (max-width: 700px) {
+  .profile, .featured-text, .featured-items {
     display: flex;
     flex-wrap: wrap;
-    justify-content: : center; {
+    justify-content: center;
   }
 
   .header-logo {
     display: none;
+  }
+
+  .name {
+    margin-top: 40px;
+  }
+}
+
+
+@media screen and (max-width: 750px) {
+  .featured-items {
+    display: flex;
+    justify-content: space-around;
   }
 }
