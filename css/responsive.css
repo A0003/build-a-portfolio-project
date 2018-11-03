@@ -20,11 +20,25 @@
 }
 
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 950px) {
   .featured-items {
     display: flex;
     justify-content: space-around;
   }
-}
 
-  
+  .header-logo {
+    display: none;
+  }
+  .profile, .career-title, .featured-text, .featured-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .name {
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+  .hr-line {
+    margin-bottom: 10px
+  }
+}
